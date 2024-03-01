@@ -36,7 +36,9 @@ useEffect(()=>{
   useEffect(()=>{
     document.getElementById("box").style.backgroundColor=color
   },[color])
-  console.log(userData.addressgit );
+
+  //user address section
+  console.log(userData.address);
   // const userAdd= Object.values(userData.address)
   // const add=userAdd[0].address
   // console.log(add);
@@ -99,7 +101,7 @@ useEffect(()=>{
           </div>
           <div className="mt-3">
             <h4>Job Title</h4>
-            sample
+            
           </div>
           <div className="mt-3">
             <h4>Email</h4>
